@@ -1,0 +1,27 @@
+{
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "editor.guides.bracketPairs": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.renderSideBySide": true,
+
+    // solidity configuration
+    "solidity.formatter": "prettier",
+    "solidity.linter": "solhint"  
+}
