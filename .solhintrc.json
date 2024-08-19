@@ -3,11 +3,11 @@
     "plugins": [
         "prettier"
     ],
-    "quotes": [
-        "error",
-        "single"
-    ],
     "rules": {
+        "quotes": [
+            "error",
+            "single"
+        ],
         "compiler-version": "off",
         "custom-errors": "off",
         "ordering": "warn",
